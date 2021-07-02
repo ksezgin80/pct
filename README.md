@@ -71,5 +71,5 @@ The code generates the following output:
     
 Links
 --------------------
-[YouTube Channel - Sez Data Lab](https://www.youtube.com/channel/UCXjJHpoJqaoxmP3lnU28BNg)
-[Blog - Sez Data Lab](https://sezdatalab.com)
+  * [YouTube Channel - Sez Data Lab](https://www.youtube.com/channel/UCXjJHpoJqaoxmP3lnU28BNg)  
+  * [Blog - Sez Data Lab](https://sezdatalab.com)
