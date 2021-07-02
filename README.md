@@ -43,28 +43,26 @@ The user needs to enter the "file/folder settings" to specify:
 The user needs to run all the cells until "Step 3. Count Objects - set counter line".
 
 The user need to enter the counter line:
-    * the user will see the first frame of the video
-    * the user will click two points which will be used to create a line for counting
-    * the user will stop the interaction by clicking the icon on the top right corner
-    * the user will run the next cell
+  * the user will see the first frame of the video
+  * the user will click two points which will be used to create a line for counting
+  * the user will stop the interaction by clicking the icon on the top right corner
+  * the user will run the next cell
 
 The user needs to run until the end of the notebook.
 
-NOTE: The first time you run object detection code, it will download a large file
-for YOYOv3 model. It will do it once and you don't need to download it again.
-YOLOv3 is actually a heavy model to run on CPU. If you are working with real time
-webcam / video feed and doesn't have GPU, try using tiny yolo which is a smaller
-version of the original YOLO model. It's significantly fast but less accurate.
+NOTE: The first time you run object detection code, it will download a large file for YOYOv3 model. It will do it once and you don't need to download it again. YOLOv3 is actually a heavy model to run on CPU. If you are working with real time webcam / video feed and doesn't have GPU, try using tiny yolo which is a smaller version of the original YOLO model. It's significantly fast but less accurate.
 
+```python
 bbox, label, conf = cv.detect_common_objects(im, model='yolov3-tiny')
+```
 
 Output
 --------------------
 The code generates the following output:
-    * 1_frames    : frames from the original video
-    * 2_detections: frames after object detection  + detections.txt
-    * 3_trackings": frames after object tracking   + trackings.txt
-    * 4_counting  : frames after object counting   + counts.txt
-    * tracking_video.avi
-    * counting_video.avi
+  * 1_frames    : frames from the original video
+  * 2_detections: frames after object detection  + detections.txt
+  * 3_trackings": frames after object tracking   + trackings.txt
+  * 4_counting  : frames after object counting   + counts.txt
+  * tracking_video.avi
+  * counting_video.avi
     
