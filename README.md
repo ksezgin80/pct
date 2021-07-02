@@ -3,7 +3,10 @@ A framework to count pedestrians (or objects) in a video
 
 Introduction
 --------------------
-The Pedestrian Counting Tool (PCT) has been developed in Python as a Jupyter Notebook. The notebook was organized in a step-by-step manner with proper titles and comments to guide the user. This documents serves as a how-to-use guide to explain the folder structure and how to use PCT.
+The Pedestrian Counting Tool (PCT) has been developed in Python as a Jupyter Notebook. The notebook was organized in a step-by-step manner with proper titles and comments to guide the user. This documents serves as a how-to-use guide to explain the folder structure and how to use PCT. Click on the sample videos below to see the tool in action!
+
+[![AVG-TownCentre - Counting Process](https://img.youtube.com/vi/ujFPEXaVJjY/0.jpg)](https://youtu.be/ujFPEXaVJjY)
+[![PETS09-S2L2 - Counting Process](https://img.youtube.com/vi/5Bh6BhEpTM4/0.jpg)](https://youtu.be/5Bh6BhEpTM4)
 
 Folder Structure
 --------------------
