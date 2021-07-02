@@ -69,3 +69,7 @@ The code generates the following output:
   * tracking_video.avi
   * counting_video.avi
     
+Links
+--------------------
+[YouTube Channel - Sez Data Lab](https://www.youtube.com/channel/UCXjJHpoJqaoxmP3lnU28BNg)
+[Blog - Sez Data Lab](https://sezdatalab.com)
